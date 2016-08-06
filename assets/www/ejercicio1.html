@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="David Rodr&iacute;guez Condezo">
+	<meta name="author" content="David Rodr&iacute;guez Condezo">
+
+	<title>Curso Cordova</title>
+
+	<link rel="stylesheet" href="css/tema1.css">
+	<link rel="stylesheet" href="css/jquery.mobile.icons.min.css">
+	<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css">
+
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<div data-role="page">
+	<div data-role="header" data-position="fixed">
+		<h1>Curso Cordova</h1>
+	</div>
+
+	<div data-role="content">
+		<form id="loginForm" action="menu.html" method="post">
+			<ul data-role="listview" data-inset="true">
+				<li data-role="list-divider">Cuenta</li>
+				<li>
+					<label for="usuario">Usuario:</label>
+					<input type="text" name="usuario" id="usuario" class="required" value=""/>
+				</li>
+				<li>
+					<label for="password">Contrase&#241a:</label>
+					<input type="password" name="password" id="password" class="required" value=""/>
+				</li>
+				<li>
+					<input type="submit" class="ui-body ui-body-b" value="Iniciar sesi&#243n" data-icon="check"/>
+				</li>
+			</ul>
+		</form>
+	</div>
+
+	<div data-role="footer" data-position="fixed">
+		<p align="center">
+			<small>RCondezo &copy; 2015</small>
+		</p>
+	</div>
+</div>
+
+</body>
+</html>
